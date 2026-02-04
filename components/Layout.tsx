@@ -30,7 +30,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
             <Link to="/" className="hover:text-black transition-colors">Home</Link>
             <Link to="/privacy" className="hover:text-black transition-colors">Privacy</Link>
-            <a href="#download" className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-colors">
+            <a href="#download" className="bg-black text-white px-4 py-2 hover:bg-gray-800 transition-colors">
               Get App
             </a>
           </nav>
@@ -49,7 +49,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="md:hidden absolute top-16 left-0 w-full bg-white border-b border-gray-100 p-6 flex flex-col gap-4 shadow-xl">
             <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium">Home</Link>
             <Link to="/privacy" onClick={() => setIsMenuOpen(false)} className="text-lg font-medium">Privacy Policy</Link>
-            <a href="#download" onClick={() => setIsMenuOpen(false)} className="bg-black text-white text-center py-3 rounded-lg font-medium">
+            <a href="#download" onClick={() => setIsMenuOpen(false)} className="bg-black text-white text-center py-3 font-medium">
               Download App
             </a>
           </div>
